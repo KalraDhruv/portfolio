@@ -8,6 +8,13 @@
 	font-weight: normal;
 	font-style: normal;
 }
+html, body{
+	height: 100%;
+	margin: 0;
+}
+.bg-gradient{
+	 background: linear-gradient(to bottom, #a948cb, #933abe, #7e2db1, #681fa4, #511197);
+}
 body {
 	font-family: 'Sevillana', sans-serif;
 }
