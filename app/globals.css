@@ -11,10 +11,16 @@
 html, body{
 	height: 100%;
 	margin: 0;
+	@apply leading-loose bg-light;
 }
-.bg-gradient{
-	 background: linear-gradient(to bottom, #a948cb, #933abe, #7e2db1, #681fa4, #511197);
+.bg-light{
+	background:#EBD3F8;
+	/* background: linear-gradient(to bottom, #a948cb, #933abe, #7e2db1, #681fa4, #511197);
+	 */
 }
+
+
+
 body {
 	font-family: 'Sevillana', sans-serif;
 }
