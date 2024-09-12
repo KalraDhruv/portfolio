@@ -1,7 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
+:root {
+	--color-dark-purple: #2E073F
+	--color-vibrant-purple: #7A1CAC,
+	--color-bright-magenta: #AD49E1,
+	--color-light-lavender: #EBD3F8,
+}
 @font-face{
 	font-family:'Sevillana';
 	src: url('./fonts/Sevillana.ttf') format('truetype');
@@ -11,14 +17,8 @@
 html, body{
 	height: 100%;
 	margin: 0;
-	@apply leading-loose bg-light;
+	@apply leading-loose bg-lightLavender;
 }
-.bg-light{
-	background:#EBD3F8;
-	/* background: linear-gradient(to bottom, #a948cb, #933abe, #7e2db1, #681fa4, #511197);
-	 */
-}
-
 
 
 body {
