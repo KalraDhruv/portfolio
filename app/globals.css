@@ -2,12 +2,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-:root {
-	--color-dark-purple: #2E073F
-	--color-vibrant-purple: #7A1CAC,
-	--color-bright-magenta: #AD49E1,
-	--color-light-lavender: #EBD3F8,
-}
 @font-face{
 	font-family:'Sevillana';
 	src: url('./fonts/Sevillana.ttf') format('truetype');
@@ -17,11 +11,10 @@
 html, body{
 	height: 100%;
 	margin: 0;
-	@apply leading-loose bg-lightLavender;
+	@apply leading-loose bg-lightGrey;
 }
 
 
-body {
-	font-family: 'Sevillana', sans-serif;
-}
+
+
 
