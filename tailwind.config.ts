@@ -10,17 +10,20 @@ module.exports= {
 	screens: {
 		sm: '640px',
 		md: '768px',
-		lg: '960px',
-		xl: '1200px',
+		lg: '1024px',
+		xl: '1280px',
+		'2xl': '1536px',
 	},
   	extend:{
   	        fontFamily:{
 	            sevillana:['Sevillana','sans-serif'],
-		},	
+				code:['Fira Code','sans-serif'],
+		    },	
 			colors:{
-				darkPurple: '#2E073F',
-				vibrantPurple: '#7A1CAC',
-				magentaPurple: '#AD49E1',
+				darkCharcoal: '#222831',
+				grayishBlue: '#393E46',
+				modernCyan: '#00ADB5',
+				lightGrey: '#EEEEEE',
 				lightLavender: '#EBD3F8',
 			},
   	},
