@@ -4,11 +4,11 @@ export default function Home() {
 	return (
 		<main>
 			<div className="relative w-full h-full">
-				<div className="relative flex-col items-center flex justify-center px-4 lg:px-10">
+				<div className="relative text-darkCharcoal flex-col items-center flex justify-center px-4 lg:px-10">
 					<h1 className=" lg:absolute relative tracking-widest lg:text-5xl lg:w-full lg:pl-10 sm:text-5xl font-semibold font-code my-10 lg:mt-0 leading-tight z-10">
 						The old and wise<br /> majestic owl<br />ready to dive into<br /> programming 
 					</h1>
-					<h2 className="hidden lg:block absolute right-0 top-2 tracking-widest lg:text-5xl lg:pr-10 font-semibold font-code leading-tight z-10">
+					<h2 className="hidden text-darkCharcoal lg:block absolute right-0 top-2 tracking-widest lg:text-5xl lg:pr-10 font-semibold font-code leading-tight z-10">
 						Curious and<br/> ready to start <br/> a new adventure 
 					</h2>
 					<h2 className="hidden xl:block absolute right-0 bottom-12 tracking-widest lg:text-5xl lg:pr-10 font-semibold font-code leading-tight z-10">

@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import Navbar from '@/components/Navbar'
+import Navbar from '@/components/Navbar';
+import MobileNavbar from '@/components/MobileNavbar';
 
 function Header(): JSX.Element {
 	return(
@@ -20,7 +21,7 @@ function Header(): JSX.Element {
 				</aside>
 				{/** Navbar for mobiles and smaller screens */}
 				<aside className="lg:hidden">
-					<p>mobile nav</p>
+					<MobileNavbar />
 				</aside>
 			</div>
 		</header>
