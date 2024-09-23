@@ -14,16 +14,26 @@ export default function Home() {
 					<h2 className="hidden xl:block absolute right-0 bottom-12 tracking-widest lg:text-5xl lg:pr-10 font-semibold font-code leading-tight z-10">
 						Interested in <br/> working on <br/> thought provoking<br/>projects
 					</h2>
-					<div className="relative lg:relative lg:mt-10 xl:mt-14 sm:w-1/2 lg:w-7/12 aspect-video">
+					<div className="relative lg:relative lg:mt-10 xl:mt-14 w-1/2 lg:w-7/12 aspect-video">
 						<Image
 							src="/images/owl.jpg"
 							layout="fill"
 							objectFit="cover"
-							alt="My Picture"
-							className="rounded-3xl backdrop-blur-sm" />
-
+							alt="Picture"
+							className="rounded-3xl size-1 backdrop-blur-sm" />
 					</div>
-
+				</div>
+				<div>
+					<div className="lg:flex-col lg:text-center">
+					<button className="xs:w-1/2 lg:w-1/4 lg:m-5 lg:px-10 xs:text-sm md:text-lg lg:inline-block button text-lightGrey font-bold shadow-lg block">
+						Web Developer
+					</button>
+					<div className="xs:w-1/2 lg:w-1/4 lg:m-5 xs:text-sm md:text-lg lg:inline-block button block text-lightGrey font-bold shadow-lg ">System Designer</div>
+					<div className="lg:block">
+						<div className="xs:w-1/2 lg:w-1/4 lg:m-5 xs:text-sm md:text-lg button lg:inline-block block text-lightGrey font-bold shadow-lg">Data Analyst</div>
+						<div className="xs:w-1/2 lg:w-1/4 lg:m-5 xs:text-sm md:text-lg button lg:inline-block block text-lightGrey font-bold shadow-lg">Math & Physics Enthusiast</div>
+					</div>
+					</div>
 				</div>
 			</div>
 		</main>

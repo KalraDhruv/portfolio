@@ -38,7 +38,7 @@ export default function Contact(){
 			<div className="flex flex-col xl:flex-row gap-[30px]">
 				<div className= "xl:h-[54%] order-2 xl:order-none">
 					{/** Form */}
-					<form className="flex flex-col gap-6 p-10 bg-grayishBlue rounded-xl">
+					<form className="my-10 flex flex-col gap-6 p-10 bg-grayishBlue rounded-xl">
 						<h3 className="text-4xl text-lightGrey">Journey of a Thousand Miles starts with a few steps</h3>
 						<p className="text-lightGrey">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum nihil apiente paraitur id totam.</p>
 						{/**input */}
